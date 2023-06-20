@@ -1,66 +1,87 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Jeneffer Souza">
+    <link rel="icon" type="image/x-icon" href="./imagem/meu-gif-perfil.gif">
+    <link rel="stylesheet" type="text/css" href="./styles.css"/>
     <title>Portfólio de Jeneffer Souza</title>
 </head>
+
 <body>
-    <h1>Olá! Eu sou a Jeneffer Souza</h1>
-    <h3>Desenvolvedora Front-end</h3>
-    <p>Uma pequena biografia aqui!</p>
-    <!--Depois trocar a imagem por uma foto atual minha-->
-    <img src="./imagem/Design sem nome.gif" alt="minha foto de perfil" width="250" height="300">
-    <div>
-        <!--Colocar aqui as tecnologias que estou usando e aprendendo-->
+    <main>
+    <div class="profile">
+        <h1>Olá! Eu sou a Jeneffer Souza</h1>
+        <h3>Desenvolvedora Front-end React.JS</h3>
+        <p>Uma pequena biografia aqui!</p>
+        <!--Depois trocar a imagem por uma foto atual minha-->
+        <img src="./imagem/meu-gif-perfil.gif" alt="minha foto de perfil" class="img-profile" width="250" height="300">
     </div>
-    <div>
+    <div class="technology">
+        <!--Colocar aqui as tecnologias que estou usando e aprendendo-->
+        <img src="./imagem/html.png" alt="HTML5" class="icon">
+        <img src="./imagem/css.png" alt="CSS" class="icon">
+        <img src="./imagem/bootstrap.png" alt="Booststrap" class="icon">
+        <img src="./imagem/javascript.png" alt="JavaScript" class="icon">
+        <img src="./imagem/react.png" alt="React" class="icon">
+        <img src="./imagem/typescript.png" alt="TypeScript" class="icon">
+        <img src="./imagem/node.js.png" alt="Node.JS" class="icon">
+    </div>
+    <div class="project">
         <h1>Últimos Projetos</h1>
         <!--Colocar aqui os meu projetos-->
-        <img src="" alt="foto do projeto" width="300" height="400">
+        <img src="" alt="foto do projeto" class="img-project" width="300" height="200">
         <h2>Título do Projeto</h2>
         <p>Descrição das tecnologias utilizadas nesse projeto</p>
-        <a href=""><button>Demo do projeto</button></a>
-        <a href=""><button>Codigo no github</button></a><br>
+        <a href="#"><button class="btn btn-demo">Demo do projeto</button></a>
+        <a href="#"><button class="btn btn-code">Codigo no github</button></a><br>
 
-        <img src="" alt="foto do projeto" width="300" height="400">
+        <img src="" alt="foto do projeto" class="img-project" width="300" height="200">
         <h2>Título do Projeto</h2>
         <p>Descrição das tecnologias utilizadas nesse projeto</p>
-        <a href=""><button>Demo do projeto</button></a>
-        <a href=""><button>Codigo no github</button></a><br>
+        <a href="#"><button class="btn btn-demo">Demo do projeto</button></a>
+        <a href="#"><button class="btn btn-code">Codigo no github</button></a><br>
 
-        <img src="" alt="foto do projeto" width="300" height="400">
+        <img src="" alt="foto do projeto" class="img-project" width="300" height="200">
         <h2>Título do Projeto</h2>
         <p>Descrição das tecnologias utilizadas nesse projeto</p>
-        <a href=""><button>Demo do projeto</button></a>
-        <a href=""><button>Codigo no github</button></a><br>
+        <a href="#"><button class="btn btn-demo">Demo do projeto</button></a>
+        <a href="#"><button class="btn btn-code">Codigo no github</button></a><br>
 
-        <img src="" alt="foto do projeto" width="300" height="400">
+        <img src="" alt="foto do projeto" class="img-project" width="300" height="200">
         <h2>Título do Projeto</h2>
         <p>Descrição das tecnologias utilizadas nesse projeto</p>
-        <a href=""><button>Demo do projeto</button></a>
-        <a href=""><button>Codigo no github</button></a><br>
+        <a href="#"><button class="btn btn-demo">Demo do projeto</button></a>
+        <a href="#"><button class="btn btn-code">Codigo no github</button></a><br>
 
-        <img src="" alt="foto do projeto" width="300" height="400">
-        <h2>Título do Projeto</h2>
-        <p>Descrição das tecnologias utilizadas nesse projeto</p>
-        <a href=""><button>Demo do projeto</button></a>
-        <a href=""><button>Codigo no github</button></a><br>
+        <img src="./imagem/clone-facebook-login.png" alt="foto do projeto" class="img-project" width="300" height="200">
+        <h2>Clone Facebook Login</h2>
+        <p>Codificado com HTML5 e CSS3, com o uso de flex-box.</p>
+        <a href="https://jeneffersouza.github.io/clone-login-facebook/" target="_blank"><button
+                class="btn btn-demo">Demo do
+                projeto</button></a>
+        <a href="https://github.com/JenefferSouza/clone-login-facebook" target="_blank"><button
+                class="btn btn-code">Codigo no
+                github</button></a><br>
 
     </div>
     <div>
         <h1>Contato</h1>
         <!--Colocar aqui minhas formas de contatos-->
-        <a href="https://www.linkedin.com/in/jeneffer-souza-405b14275/" target="_blank"><button>LinkedIn</button></a>
-        <a href="https://api.whatsapp.com/send?phone=5521990547902&text=Ol%C3%A1,%20vi%20o%20seu%20portf%C3%B3lio..." target="_blank"><button>WhatsApp</button></a>
-        <a href="mailto:jeneffersouza.dev@gmail.com" target="_blank"><button>E-mail</button></a>
-       
-
+        <a href="https://www.linkedin.com/in/jeneffer-souza-405b14275/" target="_blank"><button
+                class="btn btn-contact">LinkedIn</button></a>
+        <a href="https://api.whatsapp.com/send?phone=5521990547902&text=Ol%C3%A1,%20vi%20o%20seu%20portf%C3%B3lio..."
+            target="_blank"><button class="btn btn-contact">WhatsApp</button></a>
+        <a href="mailto:jeneffersouza.dev@gmail.com" target="_blank"><button class="btn btn-contact">E-mail</button></a>
+        <p>Escrever aqui uma mensagem para os recrutadores</p>
     </div>
+    </main>
     <footer>
         <p>Desenvolvido por Jeneffer Souza - Todos os direitos reservados</p>
     </footer>
 </body>
+
 </html>
